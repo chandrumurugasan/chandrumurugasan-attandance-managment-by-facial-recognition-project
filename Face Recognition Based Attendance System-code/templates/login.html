@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../static/adminlogin.css">
+
+</head>
+<div class="loader_bg">
+	<div class="loader"></div>
+  </div>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1>Wc Admin!</h1>
+		<p>Pollachi Institute of Engineering & Technology (PIE Tech)<br> was established in 2012 with
+			 a mission of providing competent technical education and creating ,<br>proficient engineers who
+			  will add newer dimensions<br> to the technical arena and thereby serve the need of the Indian <br>
+			  Society as a whole...</p>
+		<span>
+		</div>
+	</div>
+	
+	
+		<div class="right">
+		<h5>Admin!</h5>		<!-- <p>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</p> -->
+		<div class="inputs">
+			<input type="text" placeholder="user id">
+			<br>
+			<input type="password" placeholder="password">
+		</div>
+			
+			<br><br>
+			
+		<div class="remember-me--forget-password">
+				<!-- Angular -->
+	<!-- <label>
+		<input type="checkbox" name="item" />
+		<span class="text-checkbox">Remember me</span>
+	</label> -->
+	<br>
+			<button><a href="/home">Login</a></button>
+			<!-- <p>forget password?</p> -->
+		</div>
+			
+			
+			<br>
+			<p>Don't have an account? </a>Create Your Account</a> it takes less than a minute</p>
+	</div>
+	
+</div>
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+	setTimeout(function(){
+		$('.loader_bg').fadeToggle();
+	}, 1600);
+  </script>
+
+</body>
+</html>
